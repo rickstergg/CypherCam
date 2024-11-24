@@ -9,7 +9,7 @@ export default [
   {
     files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"],
     ignores: [
-      "**/apps/*/.next/**",
+      "**/.next/**",
       "**/node_modules/**",
       "**/dist/**",
       "**/build/**",

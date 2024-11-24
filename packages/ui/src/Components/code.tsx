@@ -1,4 +1,4 @@
-import { type JSX } from "react";
+import React from "react";
 
 export function Code({
   children,
@@ -6,6 +6,6 @@ export function Code({
 }: {
   children: React.ReactNode;
   className?: string;
-}): JSX.Element {
+}): React.JSX.Element {
   return <code className={className}>{children}</code>;
 }

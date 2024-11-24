@@ -2,10 +2,10 @@
   "name": "cyphercam",
   "private": true,
   "scripts": {
-    "build": "turbo build --ui=stream",
-    "dev": "turbo dev --ui=stream",
-    "lint": "turbo lint --ui=stream",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "build": "turbo build --parallel --ui=stream",
+    "dev": "turbo dev --parallel --ui=stream",
+    "lint": "turbo lint --parallel --ui=stream",
+    "format": "prettier --parallel --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
     "eslint": "^9.15.0",
