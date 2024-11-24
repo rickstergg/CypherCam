@@ -2,8 +2,8 @@
   "name": "cyphercam",
   "private": true,
   "scripts": {
-    "build": "turbo build",
-    "dev": "turbo dev",
+    "build": "turbo build --ui=stream",
+    "dev": "turbo dev --ui=stream",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
