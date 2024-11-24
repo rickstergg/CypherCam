@@ -4,7 +4,7 @@
   "scripts": {
     "build": "turbo build --ui=stream",
     "dev": "turbo dev --ui=stream",
-    "lint": "turbo lint",
+    "lint": "turbo lint --ui=stream",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
