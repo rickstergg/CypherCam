@@ -8,16 +8,11 @@ import pluginReact from "eslint-plugin-react";
 export default [
   {
     files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"],
-    ignores: [
-      "**/.next/**",
-      "**/node_modules/**",
-      "**/dist/**",
-      "**/build/**",
-      "**/eslint.config.mjs",
-      "coverage/**/*",
-    ],
   },
-  { languageOptions: { globals: { ...globals.browser, ...globals.node } } },
+  {
+    languageOptions: { globals: { ...globals.browser, ...globals.node } },
+    settings: { react: { version: "detect" } },
+  },
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   pluginReact.configs.flat.recommended,

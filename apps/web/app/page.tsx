@@ -1,3 +1,4 @@
+import React from "react";
 import Image, { type ImageProps } from "next/image";
 import styles from "./page.module.css";
 import { Button } from "@cyphercam/ui/src/Components";
