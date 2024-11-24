@@ -14,13 +14,11 @@
   },
   "devDependencies": {
     "@repo/typescript-config": "workspace:*",
-    "@turbo/gen": "^1.12.4",
-    "@types/node": "^20.11.24",
-    "@types/eslint": "^8.56.5",
+    "@turbo/gen": "^2.3.1",
+    "@types/node": "^22.9.3",
     "@types/react": "18.3.0",
     "@types/react-dom": "18.3.1",
-    "eslint": "^8.57.0",
-    "typescript": "5.5.4"
+    "typescript": "5.7.2"
   },
   "dependencies": {
     "react": "19.0.0-rc-5c56b873-20241107",
